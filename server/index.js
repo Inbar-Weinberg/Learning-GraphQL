@@ -1,7 +1,8 @@
 const express = require("express");
 const { graphqlHTTP } = require("express-graphql");
 const { GraphQLObjectType, GraphQLString, GraphQLSchema } = require("graphql");
-//! test comment
+
+
 const app = express();
 
 // const RootQuery = new GraphQLObjectType({
